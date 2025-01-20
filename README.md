@@ -1,5 +1,6 @@
 # AI-Chat-Assistant
-> Because using vanilla HTML/CSS/JS is like saying "I use Windows" when you could say "I use Arch BTW" 😉
+>This React version evolved from an [original HTML/CSS implementation](https://github.com/usualdork/EndlessClaude). <br>
+Because using vanilla HTML/CSS/JS is like saying "I use Windows" when you could say "I use Arch BTW" 😉 <br>
 ![image](https://github.com/user-attachments/assets/bc15e912-346b-4bec-8641-8c19802c93f1)
 
 
