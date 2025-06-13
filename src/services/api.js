@@ -4,7 +4,7 @@ const BASE_URL = 'https://api.puter.com/v2'; // Replace with actual base URL.
 
 export const fetchModelResponse = async (input, model) => {
   const endpoint = model === 'model1' 
-    ? 'claude-3-5-sonnet' 
+    ? 'claude-4-sonnet' 
     : 'default'; // Modify model names if needed.
 
   const response = await axios.post(`${BASE_URL}/ai/chat`, {
