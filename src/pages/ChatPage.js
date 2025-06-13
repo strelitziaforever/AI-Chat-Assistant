@@ -119,7 +119,7 @@ const ChatPage = () => {
 
     const options = {
       stream: true,
-      model: model === 'model1' ? 'claude-4-sonnet' : undefined,
+      model: model === 'model1' ? 'claude-sonnet-4' : undefined,
     };
 
     try {
