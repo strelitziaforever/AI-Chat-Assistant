@@ -29,7 +29,7 @@ const Chatbox = ({ onNewMessage }) => {
       if (window.puter) {
         const options = {
           stream: true,
-          model: model === 'model1' ? 'claude-3-5-sonnet' : undefined, // Specify 'claude-3-5-sonnet' for model1, leave undefined for model2
+          model: model === 'model1' ? 'claude-4-sonnet' : undefined, // Specify 'claude-3-5-sonnet' for model1, leave undefined for model2
         };
 
         const responseStream = await window.puter.ai.chat(input, options);
